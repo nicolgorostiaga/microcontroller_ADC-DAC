@@ -1,0 +1,70 @@
+[PROJECT]
+Target=Lab8_1.hex
+Processor_Text=PIC24FV16KM202
+CCSVerions=5.068
+Compiler=PCD
+CCSVersion=5.068
+[Target Data]
+FileList=Lab8_1.c
+[Directories]
+Include=
+[C:\Users\Admin\Desktop\ECE422_Lab8\Lab8_1]
+Type=4
+[mru-list]
+1=Lab8_1.c
+
+[ProjectLog]
+Days=5
+D1=27-10-2019
+D1_L=4
+D1_L1=[46147]Project Opened.
+D1_L2=[47106]Started Editing.
+D1_L3=[48469]Stopped Editing.
+TotalEdit=27
+TotalDebug=0
+D1_E=18
+D1_D=0
+D1_L4=[57766]Project Closed.
+D2=28-10-2019
+D2_L=8
+D2_L1=[30141]Project Opened.
+D2_L2=[31039]Started Editing.
+D2_L3=[31295]Stopped Editing.
+D2_E=9
+D2_D=0
+D2_L4=[31295]Project Closed.
+D2_L5=[56097]Project Opened.
+D2_L6=[56893]Started Editing.
+D2_L7=[57429]Stopped Editing.
+D2_L8=[59755]Project Closed.
+D3=29-10-2019
+D3_L=4
+D3_L1=[39965]Project Opened.
+D3_L2=[42047]Project Closed.
+D3_L3=[51362]Project Opened.
+D3_L4=[52674]Project Closed.
+D4=30-10-2019
+D4_L=2
+D4_L1=[78026]Project Opened.
+D4_L2=[83199]Project Closed.
+D5=01-11-2019
+D5_L=2
+D5_L1=[60747]Project Opened.
+D5_L2=[60762]Project Closed.
+
+[Opened Files]
+1=Lab8_1.c
+t1=1
+Count=3
+2=Lab8_1.h
+t2=1
+3=Lab8_1.sym
+t3=1
+[Lab8_1.c]
+Type=4
+
+[defines]
+buildcount=7
+[Units]
+Count=1
+1=Lab8_1 (main)

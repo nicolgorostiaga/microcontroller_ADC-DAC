@@ -1,0 +1,144 @@
+W0      @SCRATCH
+W0L     _RETURN_
+W0 -W1  @READ_ROM_MEMORY.P1
+W0 -W3  @I64TOF48.P2
+W0 -W2  @MULFF48.P3
+W0 -W1  @DIV3232B.P4
+W0 -W3  @SI64TOF48.P5
+W0 -W2  @ADDFF48.P6
+W0      @delay_us1.P7
+W0 -W2  @F48TO64.P8
+W0 -W3  @I64TOF64.P9
+W0 -W3  @MULFF64.P10
+W0 -W3  @FLT64.P11
+W0 -W1  @FLT.P12
+W0 -W1  @SFTOI.P13
+W0 -W3  @F64TOSI64.P14
+W0 -W3  @DIVFF64.P15
+W0 -W1  @MULFF.P16
+W0 -W3  @ADDFF64.P17
+W0 -W2  @DIVFF48.P18
+W0 -W1  @ADDFF.P19
+W0 -W3  @SI64TOF64.P20
+W0 -W3  @F64TO48.P21
+W0 -W2  @F48TOSI64.P22
+W0      @delay_ms1.P23
+W0      @ITOF.P24
+W0      @SITOF.P25
+W0 -W3  @F64TOI64.P26
+W0 -W1  @DIVFF.P27
+W0 -W2  @FLT48.P28
+W1      @SCRATCH
+W1      @WRITE_PACKED_MEMORY.P1
+W1      @READ_PACKED_MEMORY.P2
+W2      @READ_PACKED_MEMORY.P1
+W2 -W3  @DIVFF.P2
+W2 -W3  @MULFF.P3
+W2      @WRITE_PACKED_MEMORY.P4
+W2 -W3  @FLT.P5
+W2 -W3  @ADDFF.P6
+W2 -W3  @DIV3232B.P7
+W2      @READ_ROM_MEMORY.P8
+W3      @WRITE_PACKED_MEMORY.P1
+W3      @READ_PACKED_MEMORY.P2
+W3 -W5  @MULFF48.P3
+W3      @READ_ROM_MEMORY.P4
+W3 -W5  @DIVFF48.P5
+W3 -W5  @FLT48.P6
+W3 -W5  @ADDFF48.P7
+W4 -W7  @MULFF64.P1
+W4 -W7  @ADDFF64.P2
+W4 -W7  @DIVFF64.P3
+W4 -W7  @FLT64.P4
+122.6   LC1OUT
+12E.6   LC2OUT
+145.4   CCP_1_SSDG
+14C.4   CCP_1_ASEVT
+14C.5   CCP_1_TRCLR
+14C.6   CCP_1_TRSET
+169.4   CCP_2_SSDG
+170.4   CCP_2_ASEVT
+170.5   CCP_2_TRCLR
+170.6   CCP_2_TRSET
+18D.4   CCP_3_SSDG
+194.4   CCP_3_ASEVT
+194.5   CCP_3_TRCLR
+194.6   CCP_3_TRSET
+1B1.4   CCP_4_SSDG
+1B8.4   CCP_4_ASEVT
+1B8.5   CCP_4_TRCLR
+1B8.6   CCP_4_TRSET
+1D5.4   CCP_5_SSDG
+1DC.4   CCP_5_ASEVT
+1DC.5   CCP_5_TRCLR
+1DC.6   CCP_5_TRSET
+635.0   C1OUT
+635.1   C1ENV
+637.0   C2OUT
+637.1   C2ENV
+639.0   C3OUT
+639.1   C3ENV
+85A-881 pas_64
+882-8A9 qas_64
+8AA-8D9 pat_64
+8DA-909 qat_64
+90A-90B rs232_errors
+90C-94B fir_coef
+94C-98B input_samples
+98C     coef_index
+98D     input_index
+98E     cur
+990-991 accumulator
+992-993 start
+994-995 end
+996-999 out
+99A-99B MAIN.i
+FA0-FFF Stack
+
+ROM Allocation:
+000200  @I64TOF64
+00026A  @MULFF64
+00037A  @ADDFF64
+000568  @F64TO48
+0005AC  @cinit1
+0005AC  MAIN
+0005D4  @cinit2
+
+Project Directory:
+    C:\Users\Admin\Desktop\ECE422_Lab8\
+
+Project Files:
+    Lab8_1.c                                                [29-Oct-19 14:35  CRC=ADB912F0]
+    Lab8_1.h                                                [27-Oct-19 13:16  CRC=066DD7A6]
+    ..\PICC\Devices\24FV16KM202.h                           [27-Jan-17 19:45  CRC=B204A216]
+    ..\PICC\Drivers\math.h                                  [22-Sep-16 08:36  CRC=9CF8C837]
+
+Source signature=A01D1D1A
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=D52A
+
+Units:
+    Lab8_1 (main)
+
+Compiler Settings:
+    Processor:      PIC24FV16KM202
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: SIGNED: 8,16,32
+    Float,Double:   32,64
+    ICD Provisions: Yes
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   Lab8_1.xsym
+    Errors:      Lab8_1.err
+    Ext Symbols: Lab8_1.esym
+    INHX8:       Lab8_1.hex
+    Symbols:     Lab8_1.sym
+    List:        Lab8_1.lst
+    Debug/COFF:  Lab8_1.cof
+    Project:     Lab8_1.ccspjt
+    Call Tree:   Lab8_1.tre
+    Statistics:  Lab8_1.STA

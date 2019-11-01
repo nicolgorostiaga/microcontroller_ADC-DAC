@@ -1,0 +1,51 @@
+
+ROM used:   2006/11264 (18%)
+            2006/11264 (18%) including unused fragments
+
+            0.6 Average locations per line
+            2.1 Average locations per statement
+
+RAM used:   426/1958 (22%) at main() level
+            426/1958 (22%) worst case
+
+Stack used: 16 worst case (16 in main + 0 for interrupts)
+Stack size: 96
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   77    27   3  Lab8_1.c
+   19     0   0  Lab8_1.h
+ 1169     0   0  ..\PICC\Devices\24FV16KM202.h
+ 2227   926  97  ..\PICC\Drivers\math.h
+----- -----
+ 3492   953 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0    106   3    0             @I64TOF64
+0    272   7    0             @MULFF64
+0    494  12   66             @ADDFF64
+0    554  14   11    987  9.1  MAIN
+0     68   2    0             @F64TO48
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               1
+    Statements              953
+    Comments                531
+    Volume (V)              999
+    Difficulty (D)          8.5
+    Effort to implement (E) 8488
+    Time to implement (T)   8 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   3
+    Maintainability (MI)    -22
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-001FE   508  0  
+00200-02BFE  1494  9258  
+
+
+
